@@ -17,9 +17,6 @@ sudo make install
 # 添加 M720 配置 # 用的默认配置位置，也可以‵-c‵指定配置文件
 cp ../../self-flow/logid.cfg /etc/logid.cfg
 
-![M720按键](image.png)
-
-
 # 加入开机自启动
 sudo cp logid.service /etc/systemd/system/
 sudo systemctl daemon-reload
